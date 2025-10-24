@@ -1,8 +1,205 @@
-/********** Template CSS **********/
+/* Additional TCIL Branding Styles */
+.navbar-brand h1 {
+    color: var(--primary) !important;
+}
+
+/* Hero section enhancements */
+.carousel-caption h5 {
+    color: var(--light) !important;
+}
+
+.carousel-caption h1 {
+    color: var(--light) !important;
+}
+
+/* Button styling improvements */
+.btn-outline-light {
+    color: var(--light);
+    border-color: var(--light);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--light);
+}
+
+/* Service section enhancements */
+.service-item {
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.service-item:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+/* Team section enhancements */
+.team-item {
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.team-item:hover {
+    border-color: var(--primary);
+}
+
+/* Footer enhancements */
+.footer-about h1 {
+    color: var(--light) !important;
+}
+
+/* Pricing section enhancements */
+.bg-white.rounded.shadow {
+    border: 3px solid var(--primary) !important;
+    position: relative;
+}
+
+.bg-white.rounded.shadow::before {
+    content: "POPULAR";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary);
+    color: var(--light);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Testimonial enhancements */
+.testimonial-item {
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.testimonial-item:hover {
+    border-color: var(--secondary);
+}
+
+/* Facts section improvements */
+.facts .bg-primary {
+    background: linear-gradient(135deg, var(--primary), #2a8a44) !important;
+}
+
+.facts .bg-light {
+    background: linear-gradient(135deg, var(--light), #f0f0f0) !important;
+    border: 2px solid var(--primary);
+}
+
+/* Vendor section styling */
+.vendor-carousel {
+    background: linear-gradient(135deg, var(--light), #f8f9fa);
+    border-top: 3px solid var(--primary);
+    border-bottom: 3px solid var(--primary);
+}
+
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #2a8a44;
+    border-color: #2a8a44;
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.btn-secondary:hover {
+    background-color: #6bb6d6;
+    border-color: #6bb6d6;
+}
+
+.border-primary {
+    border-color: var(--primary) !important;
+}
+
+/* Enhanced white backgrounds for better contrast */
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+/* Service icons with green background */
+.service-item .service-icon {
+    background: var(--primary) !important;
+}
+
+/* Team social buttons */
+.team-social a.btn {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+/* Footer enhancements */
+.footer-about {
+    background-color: var(--primary) !important;
+}
+
+/* Carousel caption background with green tint */
+.carousel-caption {
+    background: rgba(52, 173, 84, 0.8) !important;
+}
+
+/* Section title underline */
+.section-title::before {
+    background: var(--primary) !important;
+}
+
+/* Testimonial dots */
+.testimonial-carousel .owl-dot.active {
+    background: var(--primary) !important;
+}
+
+/* Facts section styling */
+.facts .bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.facts .bg-light {
+    background-color: var(--light) !important;
+}
+
+/* Navbar enhancements */
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--primary) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link::before {
+    background: var(--primary) !important;
+}
+
+/* Pricing plan enhancements */
+.bg-white {
+    background-color: var(--light) !important;
+}
+
+/* Vendor carousel styling */
+.vendor-carousel {
+    background-color: var(--light) !important;
+}
+
+
 :root {
-    --primary: #87CEEB;
-    --secondary: #34AD54;
-    --light: #F8F9FA;
+    --primary: #34AD54;
+    --secondary: #87CEEB;
+    --light: #FFFFFF;
     --dark: #2C3E50;
 }
 
@@ -221,7 +418,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+    background: rgba(52, 173, 84, 0.7);
     z-index: 1;
 }
 
@@ -417,7 +614,7 @@ h6,
 }
 
 .team-item:hover .team-social {
-    background: rgba(9, 30, 62, .7);
+    background: rgba(52, 173, 84, .7);
 }
 
 .team-item:hover .team-social a.btn:first-child {
